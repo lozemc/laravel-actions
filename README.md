@@ -33,6 +33,5 @@ php artisan make:action UpdatePostAction
 This will generate a new action class named `UpdatePostAction` in the `App\Actions` namespace. You can then implement
 your business logic within this action class.
 
-###
-
-[Laravel Service Command](https://github.com/lozemc/laravel-services)
+### Other
+- [Laravel Service Command](https://github.com/lozemc/laravel-services)
