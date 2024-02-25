@@ -35,4 +35,4 @@ your business logic within this action class.
 
 ###
 
-[Laravel Service Command](https://github.com/lozemc/laravel-service)
+[Laravel Service Command](https://github.com/lozemc/laravel-services)
