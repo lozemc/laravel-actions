@@ -1,7 +1,7 @@
 {
   "name": "lozemc/laravel-actions",
   "type": "library",
-  "version": "10.0",
+  "version": "11.0",
   "description": "Simple command to create actions in Laravel",
   "license": "MIT",
   "keywords": [
@@ -20,15 +20,18 @@
   ],
   "autoload": {
     "psr-4": {
-      "App\\Console\\Commands\\": "src/"
+      "Lozemc\\Actions\\": "src/"
     }
   },
   "require": {
-    "php": ">=8.2",
-    "laravel/framework": "^10.0"
+    "php": "^8.2|^8.3",
+    "laravel/framework": "^11.0"
   },
   "config": {
     "platform-check": false,
     "optimize-autoloader": true
+  },
+  "require-dev": {
+    "phpstan/phpstan": "^1.10"
   }
 }

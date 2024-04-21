@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Console\Commands;
+namespace Lozemc\Actions\Console;
 
 use Illuminate\Console\GeneratorCommand;
 
